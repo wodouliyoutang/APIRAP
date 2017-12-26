@@ -1,0 +1,31 @@
+
+<script type="text/javascript">
+	window.sessionStorage.clear();
+    $(function(){
+		$(document).on('click','a[href!="#"][href!="#tab11"][href!="#tab12"][href!="javascript:;"]',function(e){
+			if(this.href){
+				$(this).pjax({
+					url:this.href,
+					event:e,
+					success:success
+				});
+			}
+		});
+	});
+	var success = function(response){
+				$('#content').html(response.html);
+				$('#nav-wamp li').removeClass('opened').removeClass('active');
+				$('#nav-wamp ul').hide();
+				$('[data-menu="'+ response.controller +'"]').addClass('opened');
+				$('[data-menu="'+ response.controller +'-'+ response.action +'"]').parent().addClass('opened active');
+				$('[data-menu="'+ response.controller +'"] .nav').show();
+				if(response.script){
+					eval('{'+response.script+'}');
+				}
+			};
+			KindEditor.ready(function(K) {
+				
+			});
+</script>
+</body>
+</html>

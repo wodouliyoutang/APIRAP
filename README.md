@@ -1,77 +1,31 @@
-﻿## 中文版教程：https://www.showdoc.cc/help 
 
-### What is ShowDoc ?
 
-Whenever we take over a module or project which has been developed by other people, we always feel crazy watching at those codes without notes. Where is the document?! Where is the document?! **Show me the doc !!**
+## 链接
+- 博客：http://blog.congxinkeji.com  
 
-A programmer often hopes the others to write technical documents, with the hope of not writing them on his/her own. Because writing a technical document needs a lot of time to handle the format and layout, and the person who writes it has to think of all kinds of non-technical details such as which catalog to put in the newly-established word document
 
-All kinds of the word documents are kept by different persons in a team dispersedly. The person who needs other documents gets the documents by shouting out. He/She gives a shout asking for the documents and then receives them from other people by IMs or the e-mail. This kind of communication is not bad, but the efficiency is not high.
 
-ShowDoc is a tool greatly applicable for an IT team to share documents online. It can promote communication efficiency among members of the team.
+## 使用说明
+1.下载之后,可能会存在Runtime目录文件,清空就行
+2.配置数据库,配置文件在/APP/Common/database.php 把该填的填好即可
+3.数据库文件 在/Verdor/SQL/blog.sql 导入即可
 
-### What can it be used for?
+## 项目介绍
 
-- #### API Document （ [Demo](https://www.showdoc.cc/demo-en)）
- 
- With the development of mobile Internet, BaaS (Backend as a Service) becomes more and more popular. The Server end provides API, and the APP end or Webpage frontend can invoke data conveniently. Using ShowDoc can compile exquisite API documents in a very fast and convenient way.
+1. 前端基于boostrap的响应式页面布局；
+1. 前端css样式,采用的是Less自动生成；
+1. 带表情的ajax无限级评论系统；
+1. PHPMail邮件系统；
+1. QQ、微博、微信等第三方登陆；
+1. KindEditor 富文本编辑器；
+1. layer弹出层控件；
+1. Share.js 分享控件,分享到微信,微博,QQ空间等等...；
+1. 引入了animate.css(动画) 和 csshake.css(晃动)；
+1. ajax异步轮训,用于消息推送;
+1. 基于TP3.2 auth权限控制；
+1. webuploader 上传图片；
+1. 其他的一些处理操作就不做介绍了，想了解的自行下载研究就好.^_^.
 
-- #### Data Dictionary （ [Demo](https://www.showdoc.cc/demo-en)）
- 
- A good Data Dictionary can easily exhibit database structure to other people, such as definition of each field and the like.
-
-- #### Explanation Document （ [Demo](https://www.showdoc.cc/help-en)）
- 
- You can absolutely use ShowDoc to compile the explanation documents for some tools, as well as to compile some technical specifications explanation documents for the team to look up.
- 
-### What functions does it have?
-
-- #### Sharing and Exporting
-
- Responsive webpage design can share the project documents to computer or mobile devices for reading. It can also export the project into word document for browsing offline.
- 
-- #### Permission Management
-
- - Public Project and Private Project
- 
-   Projects on ShowDoc are divided into two categories including Public Project and Private Project. Public Project can be visited by any user no matter he/she logs in or not, while inputting password for verification is needed for visiting the Private Project. The password is set by project creator. 
-   
-  - Project Transfer
-  
-   The project creator can transfer the project to other users of the website freely.
-   
-  - Project Members
-  
-   You can easily add or delete project members in the project of ShowDoc. Members of the project can edit the project, but they can not transfer or delete the project (only creator of the project has the permission).
-   
-- #### Edit Function
-  - Markdown Edit
-  
-   ShowDoc adopts Markdown Editor, and it is excellent both in editing and reading experience. If you know nothing about Markdown, please search “Learning and Introduction of Markdown” on the search engine.
-   
-  - Template Insert
-  
-   On the editing page of ShowDoc, a click on the button which is on the top of the Editor can easily insert API interface template and data dictionary template. After inserting the template, altering data is the only thing that need to do and it reduces a lot of work in editing.
-   
-  - History Version
-  
-   ShowDoc provides a function of History Version on the page, and you can easily restore the page to the former version.
-   
-
-### Deploy It to Your Own Server
- - ShowDoc Deploy Manual
-  
-     Please refer to:[https://www.showdoc.cc/help-en?page_id=16975](https://www.showdoc.cc/help-en?page_id=16975)
-  
-
-### Copyright 
-
- ShowDoc is issued complying with Apache2 Open Source License, and it is for free use. 
- 
- Copyright © 2016 by star7th 
- 
- 
- E-mail: xing7th#gmail.com (change # into @) 
- 
- All rights reserved. 
- 
+##后台
+后台登录,直接输入http://serverName/admin 就可进入
+默认登录名 admin 密码 admin
