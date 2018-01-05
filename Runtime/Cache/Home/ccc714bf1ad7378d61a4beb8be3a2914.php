@@ -78,8 +78,8 @@
             <div class="modal-footer">
                 <div class="pop-login-sns">
                     <span style="color:#666;margin-left: 18px;">其他方式登录</span>
-                    <a href="<?php echo U('Api/Oauth/login',array('type'=>qq));?>"><i class="icon-qqs"></i></a>
-                    <a href="<?php echo U('Api/Oauth/login',array('type'=>sina));?>"><i class="icon-weibos"></i></a>
+                    <a href="<?php echo U('Api/Oauth/login',array('type'=>qq));?>"><i class="icon-qqs qqlogin"></i></a>
+                    <a href="<?php echo U('Api/Oauth/login',array('type'=>sina));?>"><i class="icon-weibos weibologin"></i></a>
                 </div>
             </div>
         </div>
@@ -162,6 +162,14 @@
     </nav>
 </header>
 <!--头部 END-->
+<script>
+    $('.qqlogin').click(function(){
+        alert('开发中')
+    })
+    $('.weibologin').click(function(){
+        alert('开发中')
+    })
+</script>
 <!--主体内容 START-->
 <!--主体内容 START-->
 <main>
@@ -246,12 +254,12 @@
                 <h4 class="title">个人专区</h4>
                 <div class="content">
                     <div class="account-img">
-                        <img alt="TK" src="/Public/home/images/photo.jpg" style="width: 100px;height: 100px;">
+                        <img alt="TK" src="/Public/home/images/tou.jpg" style="width: 100px;height: 100px;">
                     </div>
                     <div class="account-c">
-                        <a href="javascript:;" class="account">TK</a>
-                        <a href="javascript:;" class="signature">如果还有梦,别只是去想...</a>
-                        <a href="http://git.oschina.net/ipking" class="links" target="_blank">git.oschina.net/ipking</a>
+                        <a href="javascript:;" class="account">王小兰爱丸子</a>
+                        <a href="javascript:;" class="signature">我兜里有个糖啊...</a>
+                        <a href="https://github.com/wodouliyoutang" class="links" target="_blank">github.com/wodouliyoutang</a>
                     </div>
 
                 </div>
