@@ -1,0 +1,799 @@
+[ 2018-01-05T10:13:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 ORDER BY  add_time DESC , aid DESC LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0120s ]
+SQL: SELECT `name` FROM `cp_category` WHERE `cid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_article_tags` [ RunTime:0.0040s ]
+SQL: SELECT t.tname,t.tid FROM cp_article_tags a INNER JOIN cp_tags t ON t.tid = a.cp_tags_tid  WHERE `cp_article_aid` = '15' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cp_users` [ RunTime:0.0210s ]
+SQL: SELECT `nickname` FROM `cp_users` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cp_comments` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_comments` WHERE `aid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 26 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 81 行.
+NOTIC: [8] Use of undefined constant sina - assumed 'sina' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cp_category` WHERE `status` = 1 AND `parent` = 0 ORDER BY `order` ASC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: cid D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 112 行.
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0050s ]
+SQL: SELECT `aid`,`title`,`hits` FROM `cp_article` ORDER BY hits DESC LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_tags` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_tags`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:13:21+08:00 ] 127.0.0.1 /Register/verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 ORDER BY  add_time DESC , aid DESC LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `cp_category` WHERE `cid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_article_tags` [ RunTime:0.0030s ]
+SQL: SELECT t.tname,t.tid FROM cp_article_tags a INNER JOIN cp_tags t ON t.tid = a.cp_tags_tid  WHERE `cp_article_aid` = '15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `cp_users` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_comments` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_comments` WHERE `aid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 26 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 81 行.
+NOTIC: [8] Use of undefined constant sina - assumed 'sina' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_category` WHERE `status` = 1 AND `parent` = 0 ORDER BY `order` ASC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cid D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 112 行.
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT `aid`,`title`,`hits` FROM `cp_article` ORDER BY hits DESC LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_tags` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_tags`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:22+08:00 ] 127.0.0.1 /Register/verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:13:29+08:00 ] 127.0.0.1 /Public/home/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:30+08:00 ] 127.0.0.1 /Public/home/css/common.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:30+08:00 ] 127.0.0.1 /Public/home/css/index.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 ORDER BY  add_time DESC , aid DESC LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `cp_category` WHERE `cid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cp_article_tags` [ RunTime:0.0030s ]
+SQL: SELECT t.tname,t.tid FROM cp_article_tags a INNER JOIN cp_tags t ON t.tid = a.cp_tags_tid  WHERE `cp_article_aid` = '15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `cp_users` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_comments` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_comments` WHERE `aid` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 26 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 81 行.
+NOTIC: [8] Use of undefined constant sina - assumed 'sina' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cp_category` WHERE `status` = 1 AND `parent` = 0 ORDER BY `order` ASC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cid D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 112 行.
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT `aid`,`title`,`hits` FROM `cp_article` ORDER BY hits DESC LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_tags` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cp_tags`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:32+08:00 ] 127.0.0.1 /Register/verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:32+08:00 ] 127.0.0.1 /Public/home/bootstrap/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:32+08:00 ] 127.0.0.1 /Public/home/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:13:33+08:00 ] 127.0.0.1 /Public/home/css/common.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:13:33+08:00 ] 127.0.0.1 /Public/home/css/index.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:15:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 ORDER BY  add_time DESC , aid DESC LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `cp_category` WHERE `cid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cp_article_tags` [ RunTime:0.0020s ]
+SQL: SELECT t.tname,t.tid FROM cp_article_tags a INNER JOIN cp_tags t ON t.tid = a.cp_tags_tid  WHERE `cp_article_aid` = '15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `cp_users` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_comments` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_comments` WHERE `aid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 26 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 81 行.
+NOTIC: [8] Use of undefined constant sina - assumed 'sina' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_category` WHERE `status` = 1 AND `parent` = 0 ORDER BY `order` ASC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cid D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 112 行.
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0020s ]
+SQL: SELECT `aid`,`title`,`hits` FROM `cp_article` ORDER BY hits DESC LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_tags` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_tags`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:15:34+08:00 ] 127.0.0.1 /Register/verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:15:34+08:00 ] 127.0.0.1 /Public/home/bootstrap/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:15:34+08:00 ] 127.0.0.1 /Public/home/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:15:35+08:00 ] 127.0.0.1 /Public/home/css/index.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:15:35+08:00 ] 127.0.0.1 /Public/home/css/common.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:16:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 ORDER BY  add_time DESC , aid DESC LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `cp_category` WHERE `cid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_article_tags` [ RunTime:0.0030s ]
+SQL: SELECT t.tname,t.tid FROM cp_article_tags a INNER JOIN cp_tags t ON t.tid = a.cp_tags_tid  WHERE `cp_article_aid` = '15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `cp_users` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_comments` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_comments` WHERE `aid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 26 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 81 行.
+NOTIC: [8] Use of undefined constant sina - assumed 'sina' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_category` WHERE `status` = 1 AND `parent` = 0 ORDER BY `order` ASC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: cid D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 112 行.
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT `aid`,`title`,`hits` FROM `cp_article` ORDER BY hits DESC LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_tags` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_tags`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:16:01+08:00 ] 127.0.0.1 /Register/verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:16:01+08:00 ] 127.0.0.1 /Public/home/bootstrap/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:16:01+08:00 ] 127.0.0.1 /Public/home/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:16:02+08:00 ] 127.0.0.1 /Public/home/css/common.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:16:02+08:00 ] 127.0.0.1 /Public/home/css/index.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:16:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 ORDER BY  add_time DESC , aid DESC LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `cp_category` WHERE `cid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_article_tags` [ RunTime:0.0030s ]
+SQL: SELECT t.tname,t.tid FROM cp_article_tags a INNER JOIN cp_tags t ON t.tid = a.cp_tags_tid  WHERE `cp_article_aid` = '15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `cp_users` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_comments` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_comments` WHERE `aid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 26 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 81 行.
+NOTIC: [8] Use of undefined constant sina - assumed 'sina' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_category` WHERE `status` = 1 AND `parent` = 0 ORDER BY `order` ASC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: cid D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 112 行.
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT `aid`,`title`,`hits` FROM `cp_article` ORDER BY hits DESC LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_tags` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_tags`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:16:42+08:00 ] 127.0.0.1 /Register/verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:16:42+08:00 ] 127.0.0.1 /Public/home/bootstrap/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:16:42+08:00 ] 127.0.0.1 /Public/home/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:16:43+08:00 ] 127.0.0.1 /Public/home/css/common.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:16:43+08:00 ] 127.0.0.1 /Public/home/css/index.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:17:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cp_article` WHERE `is_recycle` = 0 AND `status` = 1 ORDER BY  add_time DESC , aid DESC LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `cp_category` WHERE `cid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_article_tags` [ RunTime:0.0030s ]
+SQL: SELECT t.tname,t.tid FROM cp_article_tags a INNER JOIN cp_tags t ON t.tid = a.cp_tags_tid  WHERE `cp_article_aid` = '15' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_users` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `cp_users` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_comments` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cp_comments` WHERE `aid` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 26 行.
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 81 行.
+NOTIC: [8] Use of undefined constant sina - assumed 'sina' D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cp_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cp_category` WHERE `status` = 1 AND `parent` = 0 ORDER BY `order` ASC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cid D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 112 行.
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\Runtime\Cache\Home\ccc714bf1ad7378d61a4beb8be3a2914.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cp_article` [ RunTime:0.0030s ]
+SQL: SELECT `aid`,`title`,`hits` FROM `cp_article` ORDER BY hits DESC LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cp_tags` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cp_tags`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:17:09+08:00 ] 127.0.0.1 /Register/verifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-05T10:17:09+08:00 ] 127.0.0.1 /Public/home/bootstrap/css/bootstrap.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:17:09+08:00 ] 127.0.0.1 /Public/home/bootstrap/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:17:10+08:00 ] 127.0.0.1 /Public/home/css/common.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-05T10:17:10+08:00 ] 127.0.0.1 /Public/home/css/index.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user D:\phpstudy\WWW\api\App\Common\Controller\HomebaseController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+

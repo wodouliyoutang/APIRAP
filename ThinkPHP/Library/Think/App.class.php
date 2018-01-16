@@ -48,6 +48,7 @@ class App {
         Hook::listen('url_dispatch');         
 
         define('IS_AJAX',       ((isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') || !empty($_POST[C('VAR_AJAX_SUBMIT')]) || !empty($_GET[C('VAR_AJAX_SUBMIT')])) ? true : false);
+        define('IS_PJAX',       ((isset($_SERVER['HTTP_X_PJAX']) && strtolower($_SERVER['HTTP_X_PJAX']) == 'true')) ? true : false);
 
         // TMPL_EXCEPTION_FILE 改为绝对地址
         C('TMPL_EXCEPTION_FILE',realpath(C('TMPL_EXCEPTION_FILE')));

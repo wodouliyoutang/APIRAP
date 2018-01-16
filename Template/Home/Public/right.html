@@ -1,0 +1,56 @@
+<div class="col-md-4" style="padding-right: 0px; padding-left: 30px;">
+
+    <if condition="CONTROLLER_NAME eq 'Index' && ACTION_NAME eq 'index' ">
+        <aside id="posts-3">
+            <div class="widget">
+                <h4 class="title">个人专区</h4>
+                <div class="content">
+                    <div class="account-img">
+                        <img alt="TK" src="__HOME__/images/tou.jpg" style="width: 100px;height: 100px;">
+                    </div>
+                    <div class="account-c">
+                        <a href="javascript:;" class="account">王小兰爱丸子</a>
+                        <a href="javascript:;" class="signature">我兜里有个糖啊...</a>
+                        <a href="https://github.com/wodouliyoutang" class="links" target="_blank">github.com/wodouliyoutang</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </aside>
+    </if>
+
+    <aside id="posts-1">
+        <div class="hot-article">
+            <div class="panel-heading">
+                <span>浏览排行</span>
+            </div>
+            <ul class="list-group">
+                <?php $titleData = M('article')->order("hits DESC")->field('aid,title,hits')->limit(6)->select();?>
+                <foreach name="titleData" item="vv">
+                    <li class="list-group-item">
+                      <span class="post-title">
+                        <a href="/a/{$vv['aid']}.html" title="{$vv['title']}">{:msubstr($vv['title'],0,25)}</a>
+                      </span>
+                      <span class="badge">{$vv['hits']}</span>
+                    </li>
+                </foreach>
+            </ul>
+        </div>
+    </aside>
+
+    <aside id="posts-2">
+        <div class="widget">
+            <h4 class="title">标签云</h4>
+            <div class="tag-cloud">
+                <?php $tagsData = M('tags')->select();?>
+                <foreach name="tagsData" item="t">
+                    <a href="/st/{$t['tid']}.html" data-st="{$t['tid']}">{$t.tname}</a>
+                </foreach>
+            </div>
+
+        </div>
+
+    </aside>
+
+</div>
